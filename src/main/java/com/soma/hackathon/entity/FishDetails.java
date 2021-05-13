@@ -18,6 +18,7 @@ public class FishDetails {
     private Long id;
 
     @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "fish_id")
     private Fish fish;
 
     private int avgCost;
