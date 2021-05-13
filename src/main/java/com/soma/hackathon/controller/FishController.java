@@ -1,6 +1,7 @@
 package com.soma.hackathon.controller;
 
 import com.soma.hackathon.response.FishDetailsResponse;
+import com.soma.hackathon.response.FishMapsResponse;
 import com.soma.hackathon.response.FishResponse;
 import com.soma.hackathon.service.FishService;
 import lombok.RequiredArgsConstructor;
@@ -37,5 +38,12 @@ public class FishController {
     public ResponseEntity<FishDetailsResponse> getFishDetails(@PathVariable("fishCode") String fishCode) {
         FishDetailsResponse response = fishService.getFishDetails(fishCode);
         return ResponseEntity.status(HttpStatus.OK).body(response);
+    }
+
+    @GetMapping("/maps")
+    public ResponseEntity<List<FishMapsResponse>> getMaps() {
+
+        List<FishMapsResponse> responses = fishService.getFishMaps();
+        return ResponseEntity.status(HttpStatus.OK).body(responses);
     }
 }

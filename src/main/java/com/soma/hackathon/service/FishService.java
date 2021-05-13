@@ -2,9 +2,12 @@ package com.soma.hackathon.service;
 
 import com.soma.hackathon.entity.Fish;
 import com.soma.hackathon.entity.FishDetails;
+import com.soma.hackathon.entity.FishMaps;
 import com.soma.hackathon.repository.FishDetailsRepository;
+import com.soma.hackathon.repository.FishMapsRepository;
 import com.soma.hackathon.repository.FishRepository;
 import com.soma.hackathon.response.FishDetailsResponse;
+import com.soma.hackathon.response.FishMapsResponse;
 import com.soma.hackathon.response.FishResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
@@ -24,6 +27,7 @@ public class FishService {
 
     private final FishRepository fishRepository;
     private final FishDetailsRepository fishDetailsRepository;
+    private final FishMapsRepository fishMapsRepository;
     private final ModelMapper modelMapper;
 
     public List<FishResponse> getFishes(String keyword) {
@@ -59,6 +63,22 @@ public class FishService {
             response.getPrices().add(FishDetailsResponse.AvgPrice.builder()
                     .yearMonth(d.getAuDate().substring(0,6))
                     .price(d.getAvgCost())
+                    .build());
+        });
+
+        return response;
+    }
+
+    public List<FishMapsResponse> getFishMaps() {
+        List<FishMaps> maps = fishMapsRepository.findAll();
+        List<FishMapsResponse> response = new ArrayList<>();
+
+        maps.forEach(m -> {
+            response.add(FishMapsResponse.builder()
+                    .title(m.getTitle())
+                    .id(m.getMarketId())
+                    .x(m.getX())
+                    .y(m.getY())
                     .build());
         });
 
