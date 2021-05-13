@@ -59,14 +59,38 @@ public class FishService {
                 .prices(new ArrayList<>())
                 .build();
 
-        details.forEach(d -> {
-            response.getPrices().add(FishDetailsResponse.AvgPrice.builder()
-                    .yearMonth(d.getAuDate().substring(0,6))
-                    .price(d.getAvgCost())
-                    .build());
-        });
+        // 평균 구하기
+        response.setPrices(getAvg(details));
 
         return response;
+    }
+
+    private List<FishDetailsResponse.AvgPrice> getAvg(List<FishDetails> details) {
+        List<FishDetailsResponse.AvgPrice> price = new ArrayList<>();
+        int[] monthCount = new int[5];
+        int[] monthSumPrice = new int[5];
+
+        details.forEach(d -> {
+            int month = Integer.parseInt(d.getAuDate().substring(5));
+            monthCount[month - 1] += 1;
+            monthSumPrice[month - 1] += d.getAvgCost();
+        });
+
+        for (int i = 4; i >= 0; i--) {
+            if (monthCount[i] == 0) {
+                price.add(FishDetailsResponse.AvgPrice.builder()
+                        .yearMonth("20210" + String.valueOf(i + 1))
+                        .price(0)
+                        .build());
+            } else {
+                price.add(FishDetailsResponse.AvgPrice.builder()
+                        .yearMonth("20210" + String.valueOf(i + 1))
+                        .price(Math.round(monthSumPrice[i] / monthCount[i]))
+                        .build());
+            }
+        }
+
+        return price;
     }
 
     public List<FishMapsResponse> getFishMaps() {

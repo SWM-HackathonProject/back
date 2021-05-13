@@ -10,12 +10,18 @@ INSERT INTO FISH_MAPS (fish_maps_id, title, market_id, x, y)
 VALUES (3, '부산수산물공판장', 'C', '35.0582491096407', '129.0109324931639');
 
 INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
-VALUES (1, '20210514', 30000, 'COMPNAME', 1);
+VALUES (1, '202105', 10000, 'COMPNAME', 1);
 INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
-VALUES (2, '20210414', 30000, 'COMPNAME', 1);
+VALUES (2, '202104', 10000, 'COMPNAME', 1);
 INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
-VALUES (3, '20210314', 30000, 'COMPNAME', 1);
+VALUES (3, '202104', 20000, 'COMPNAME', 1);
 INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
-VALUES (4, '20210214', 30000, 'COMPNAME', 1);
+VALUES (4, '202104', 30000, 'COMPNAME', 1);
 INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
-VALUES (5, '20210114', 30000, 'COMPNAME', 1);
+VALUES (5, '202103', 10000, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
+VALUES (6, '202103', 15000, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
+VALUES (7, '202102', 15000, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
+VALUES (8, '202102', 20000, 'COMPNAME', 1);
