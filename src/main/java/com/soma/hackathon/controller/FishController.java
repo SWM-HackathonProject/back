@@ -9,13 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequiredArgsConstructor
 public class FishController {
 
-    private final FishService fishService;
+//    private final FishService fishService;
 
     // CORS Test URL
     @GetMapping("/health-check")
     public String healthCheck() {
         return "Healthy!";
     }
-
-
 }
