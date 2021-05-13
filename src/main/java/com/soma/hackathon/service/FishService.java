@@ -36,7 +36,7 @@ public class FishService {
         if ("".equals(keyword) || keyword == null) {
             fishes = fishRepository.findAll();
         } else {
-            fishes = fishRepository.findByFishName(keyword);
+            fishes = fishRepository.findByFishNameIsContaining(keyword);
         }
 
         List<FishResponse> response = new ArrayList<>();
