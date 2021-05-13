@@ -28,144 +28,143 @@ VALUES
 (12, '840306', '갑오징어', '구입요령 : 구입요령 : 눌러 보았을 때 단단하고 탄력이 있는 것이 좋다.', '구입요령 : 구입요령 : 눌러 보았을 때 단단하고 탄력이 있는 것이 좋다.', '840306');
 
 
-INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id)
-VALUES (1, '202104', 21508, 'COMPNAME', 611501),
-       (2, '202104', 21657, 'COMPNAME', 611501),
-       (3, '202104', 21605, 'COMPNAME', 611501),
-       (4, '202104', 18500, 'COMPNAME', 611501),
-       (5, '202104', 18416, 'COMPNAME', 611501),
-       (6, '202104', 18000, 'COMPNAME', 611501),
-       (7, '202104', 16700, 'COMPNAME', 611501),
-       (8, '202103', 21460, 'COMPNAME', 611501),
-       (9, '202103', 19500, 'COMPNAME', 611501),
-       (10, '202103', 17845, 'COMPNAME', 611501),
-       (11, '202103', 16500, 'COMPNAME', 611501),
-       (12, '202103', 17500, 'COMPNAME', 611501),
-       (13, '202103', 20617, 'COMPNAME', 611501),
-       (14, '202103', 18390, 'COMPNAME', 611501),
-       (15, '202102', 18380, 'COMPNAME', 611501),
-       (16, '202102', 17500, 'COMPNAME', 611501),
-       (17, '202102', 14687, 'COMPNAME', 611501),
-       (18, '202102', 22210, 'COMPNAME', 611501),
-       (19, '202101', 16000, 'COMPNAME', 611501),
-       (20, '202101', 17500, 'COMPNAME', 611501),
-       (21, '202101', 29000, 'COMPNAME', 611501),
-       (22, '202101', 17853, 'COMPNAME', 611501),
-       (23, '202101', 17500, 'COMPNAME', 611501),
-       (24, '202101', 17500, 'COMPNAME', 611501),
-       (25, '202101', 17500, 'COMPNAME', 611501),
-       (26, '202105', 5000, 'COMPNAME', 712703),
-       (27, '202104', 6250, 'COMPNAME', 712703),
-       (28, '202104', 10000, 'COMPNAME', 815601),
-       (29, '202103', 10000, 'COMPNAME', 815601),
-       (30, '202102', 10000, 'COMPNAME', 815601),
-       (31, '202101', 10000, 'COMPNAME', 815601),
-       (32, '202104', 8200, 'COMPNAME', 712702),
-       (33, '202104', 6200, 'COMPNAME', 712702),
-       (34, '202104', 6200, 'COMPNAME', 712702),
-       (35, '202104', 2200, 'COMPNAME', 712702),
-       (36, '202104', 2300, 'COMPNAME', 712702),
-       (37, '202104', 2950, 'COMPNAME', 712702),
-       (38, '202104', 2300, 'COMPNAME', 712702),
-       (39, '202104', 4200, 'COMPNAME', 712702),
-       (40, '202104', 2100, 'COMPNAME', 712702),
-       (41, '202104', 3000, 'COMPNAME', 712702),
-       (42, '202104', 6250, 'COMPNAME', 712702),
-       (43, '202104', 1750, 'COMPNAME', 712702),
-       (44, '202104', 3000, 'COMPNAME', 712702),
-       (45, '202104', 5900, 'COMPNAME', 712702),
-       (46, '202104', 4500, 'COMPNAME', 712702),
-       (47, '202104', 2950, 'COMPNAME', 712702),
-       (48, '202104', 6500, 'COMPNAME', 712702),
-       (49, '202103', 2800, 'COMPNAME', 712702),
-       (50, '202103', 2150, 'COMPNAME', 712702),
-       (51, '202103', 1450, 'COMPNAME', 712702),
-       (52, '202103', 2625, 'COMPNAME', 712702),
-       (53, '202103', 2800, 'COMPNAME', 712702),
-       (54, '202103', 2800, 'COMPNAME', 712702),
-       (55, '202103', 1200, 'COMPNAME', 712702),
-       (56, '202103', 2150, 'COMPNAME', 712702),
-       (57, '202103', 2070, 'COMPNAME', 712702),
-       (58, '202103', 3533, 'COMPNAME', 712702),
-       (59, '202103', 4750, 'COMPNAME', 712702),
-       (61, '202103', 4325, 'COMPNAME', 712702),
-       (62, '202103', 2600, 'COMPNAME', 712702),
-       (63, '202103', 2000, 'COMPNAME', 712702),
-       (64, '202103', 1500, 'COMPNAME', 712702),
-       (65, '202103', 4400, 'COMPNAME', 712702),
-       (66, '202103', 3500, 'COMPNAME', 712702),
-       (68, '202102', 3100, 'COMPNAME', 712702),
-       (69, '202102', 3500, 'COMPNAME', 712702),
-       (70, '202102', 2600, 'COMPNAME', 712702),
-       (71, '202102', 4000, 'COMPNAME', 712702),
-       (72, '202102', 4725, 'COMPNAME', 712702),
-       (73, '202102', 3225, 'COMPNAME', 712702),
-       (74, '202102', 1900, 'COMPNAME', 712702),
-       (75, '202101', 4466, 'COMPNAME', 712702),
-       (76, '202101', 5000, 'COMPNAME', 712702),
-       (77, '202101', 5650, 'COMPNAME', 712702),
-       (78, '202101', 5500, 'COMPNAME', 712702),
-       (79, '202101', 8000, 'COMPNAME', 712702),
-       (80, '202104', 8000, 'COMPNAME', 712704),
-       (81, '202104', 20000, 'COMPNAME', 712201),
-       (82, '202104', 20000, 'COMPNAME', 712201),
-       (83, '202104', 70000, 'COMPNAME', 616222),
-       (84, '202103', 5000, 'COMPNAME', 616222),
-       (84, '202103', 10000, 'COMPNAME', 616222),
-       (85, '202103', 10500, 'COMPNAME', 616222),
-       (86, '202102', 20000, 'COMPNAME', 616222),
-       (87, '202102', 10000, 'COMPNAME', 616222),
-       (88, '202102', 17333, 'COMPNAME', 616222),
-       (89, '202101', 10000, 'COMPNAME', 616222),
-       (90, '202101', 20000, 'COMPNAME', 616222),
-       (91, '202101', 25000, 'COMPNAME', 616222),
-       (92, '202101', 10000, 'COMPNAME', 616222),
-       (93, '202101', 16000, 'COMPNAME', 616222),
-       (94, '202101', 6000, 'COMPNAME', 716702),
-       (95, '202101', 13800, 'COMPNAME', 716702),
-       (96, '202104', 3416, 'COMPNAME', 713500),
-       (97, '202104', 7500, 'COMPNAME', 713500),
-       (98, '202104', 5000, 'COMPNAME', 713500),
-       (99, '202103', 5500, 'COMPNAME', 713500),
-       (100, '202103', 4000, 'COMPNAME', 713500),
-       (101, '202103', 4500, 'COMPNAME', 713500),
-       (102, '202102', 1500, 'COMPNAME', 713500),
-       (103, '202102', 4500, 'COMPNAME', 713500),
-       (104, '202102', 5000, 'COMPNAME', 713500),
-       (105, '202101', 4400, 'COMPNAME', 713500),
-       (106, '202101', 5000, 'COMPNAME', 713500),
-       (107, '202101', 3500, 'COMPNAME', 713500),
-       (108, '202104', 11500, 'COMPNAME', 713500),
-       (109, '202104', 15000, 'COMPNAME', 713500),
-       (110, '202104', 6500, 'COMPNAME', 713500),
-       (111, '202103',12888, 'COMPNAME', 713500),
-       (112, '202103',13250, 'COMPNAME', 713500),
-       (113, '202103',7500, 'COMPNAME', 713500),
-       (114, '202102',12000, 'COMPNAME', 713500),
-       (115, '202102',7700, 'COMPNAME', 713500),
-       (116, '202102',4700, 'COMPNAME', 713500),
-       (117, '202101',8400, 'COMPNAME', 713500),
-       (118, '202101',1800, 'COMPNAME', 713500),
-       (119, '202101',2100, 'COMPNAME', 713500),
-       (121, '202105',1650, 'COMPNAME', 710604),
-       (122, '202104',1650, 'COMPNAME', 710604),
-       (123, '202103',2050, 'COMPNAME', 710604),
-       (124, '202103',800, 'COMPNAME', 710604),
-       (125, '202103',2050, 'COMPNAME', 710604),
-       (126, '202102',2500, 'COMPNAME', 710604),
-       (127, '202102',1500, 'COMPNAME', 710604),
-       (128, '202102',2000, 'COMPNAME', 710604),
-       (129, '202101',2250, 'COMPNAME', 710604),
-       (130, '202101',1350, 'COMPNAME', 710604),
-       (131, '202101',2087, 'COMPNAME', 710604),
-       (132, '202104',10200, 'COMPNAME', 840306),
-       (133, '202103',10000, 'COMPNAME', 740100),
-       (134, '202103',10800, 'COMPNAME', 840306),
-       (135, '202103',8200, 'COMPNAME', 840306),
-       (136, '202102',9125, 'COMPNAME', 840306),
-       (137, '202102',9500, 'COMPNAME', 840306),
-       (138, '202102',12000, 'COMPNAME', 840306),
-       (139, '202101',14000, 'COMPNAME', 840306),
-       (140, '202101',14400, 'COMPNAME', 840306),
-       (141, '202101',11000, 'COMPNAME', 840306);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(1, '202104', 21508, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(2, '202104', 21657, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(3, '202104', 21605, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(4, '202104', 18500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(5, '202104', 18416, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(6, '202104', 18000, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(7, '202104', 16700, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(8, '202103', 21460, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(9, '202103', 19500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(10, '202103', 17845, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(11, '202103', 16500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(12, '202103', 17500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(13, '202103', 20617, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(14, '202103', 18390, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(15, '202102', 18380, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(16, '202102', 17500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(17, '202102', 14687, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(18, '202102', 22210, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(19, '202101', 16000, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(20, '202101', 17500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(21, '202101', 29000, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(22, '202101', 17853, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(23, '202101', 17500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(24, '202101', 17500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(25, '202101', 17500, 'COMPNAME', 1);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(26, '202105', 5000, 'COMPNAME', 2);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(27, '202104', 6250, 'COMPNAME', 2);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(28, '202104', 10000, 'COMPNAME', 3);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(29, '202103', 10000, 'COMPNAME', 3);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(30, '202102', 10000, 'COMPNAME', 3);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(31, '202101', 10000, 'COMPNAME', 3);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(32, '202104', 8200, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(33, '202104', 6200, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(34, '202104', 6200, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(35, '202104', 2200, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(36, '202104', 2300, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(37, '202104', 2950, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(38, '202104', 2300, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(39, '202104', 4200, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(40, '202104', 2100, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(41, '202104', 3000, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(42, '202104', 6250, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(43, '202104', 1750, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(44, '202104', 3000, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(45, '202104', 5900, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(46, '202104', 4500, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(47, '202104', 2950, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(48, '202104', 6500, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(49, '202103', 2800, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(50, '202103', 2150, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(51, '202103', 1450, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(52, '202103', 2625, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(53, '202103', 2800, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(54, '202103', 2800, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(55, '202103', 1200, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(56, '202103', 2150, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(57, '202103', 2070, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(58, '202103', 3533, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(59, '202103', 4750, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(61, '202103', 4325, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(62, '202103', 2600, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(63, '202103', 2000, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(64, '202103', 1500, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(65, '202103', 4400, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(66, '202103', 3500, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(68, '202102', 3100, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(69, '202102', 3500, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(70, '202102', 2600, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(71, '202102', 4000, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(72, '202102', 4725, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(73, '202102', 3225, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(74, '202102', 1900, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(75, '202101', 4466, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(76, '202101', 5000, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(77, '202101', 5650, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(78, '202101', 5500, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(79, '202101', 8000, 'COMPNAME', 4);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(80, '202104', 8000, 'COMPNAME', 5);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(81, '202104', 20000, 'COMPNAME', 6);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(82, '202104', 20000, 'COMPNAME', 6);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(83, '202104', 70000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(84, '202103', 5000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(142, '202103', 10000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(85, '202103', 10500, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(86, '202102', 20000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(87, '202102', 10000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(88, '202102', 17333, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(89, '202101', 10000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(90, '202101', 20000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(91, '202101', 25000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(92, '202101', 10000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(93, '202101', 16000, 'COMPNAME', 7);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(94, '202101', 6000, 'COMPNAME', 8);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(95, '202101', 13800, 'COMPNAME', 8);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(96, '202104', 3416, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(97, '202104', 7500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(98, '202104', 5000, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(99, '202103', 5500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(100, '202103', 4000, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(101, '202103', 4500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(102, '202102', 1500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(103, '202102', 4500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(104, '202102', 5000, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(105, '202101', 4400, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(106, '202101', 5000, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(107, '202101', 3500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(108, '202104', 11500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(109, '202104', 15000, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(110, '202104', 6500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(111, '202103',12888, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(112, '202103',13250, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(113, '202103',7500, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(114, '202102',12000, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(115, '202102',7700, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(116, '202102',4700, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(117, '202101',8400, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(118, '202101',1800, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(119, '202101',2100, 'COMPNAME', 9);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(121, '202105',1650, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(122, '202104',1650, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(123, '202103',2050, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(124, '202103',800, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(125, '202103',2050, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(126, '202102',2500, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(127, '202102',1500, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(128, '202102',2000, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(129, '202101',2250, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(130, '202101',1350, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(131, '202101',2087, 'COMPNAME', 10);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(132, '202104',10200, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(133, '202103',10000, 'COMPNAME', 11);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(134, '202103',10800, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(135, '202103',8200, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(136, '202102',9125, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(137, '202102',9500, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(138, '202102',12000, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(139, '202101',14000, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(140, '202101',14400, 'COMPNAME', 12);
+INSERT INTO FISH_DETAILS (comp_and_price_id, au_date, avg_cost, comp_name, fish_id) VALUES(141, '202101',11000, 'COMPNAME', 12);
 
